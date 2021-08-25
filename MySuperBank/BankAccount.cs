@@ -5,7 +5,6 @@ using System.Linq;
 using System.IO;
 using System.Text.Json;
 using System.Configuration;
-
 namespace MySuperBank
 {
     public class BankAccount
@@ -71,10 +70,13 @@ namespace MySuperBank
             }
             return report.ToString();
         }
-        public string Json()
+        public void WriteAllLines()
         {
+            string sAttrWrite = ConfigurationManager.AppSettings.Get("Key0");
+            string writeFilePath = sAttrWrite + DateTime.Now.ToString("yyyyMMdd") + "_räkningar.json";
+
             string json = JsonSerializer.Serialize(allTransactions);
-            return json;
+            File.WriteAllText(writeFilePath, json);
         }
     }
 }

@@ -10,14 +10,6 @@ namespace MySuperBank
 {
     public class ReadWrite
     {
-        BankAccount account = null;
-        public void WriteAllLines()
-        {
-            string sAttrWrite = ConfigurationManager.AppSettings.Get("Key0");
-            string writeFilePath = sAttrWrite + DateTime.Now.ToString("yyyyMMdd") + "_räkningar.json";
-            
-            File.WriteAllText(writeFilePath, account.Json());
-        }
         internal static bool ReadAllLines(out IEnumerable<Transaction> transactions)
         {
             string sAttrRead = ConfigurationManager.AppSettings.Get("Key1");

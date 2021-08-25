@@ -9,7 +9,6 @@ namespace MySuperBank
         static void Main(string[] args)
         {
             BankAccount account = null;
-            ReadWrite toFromfile = null;
 
             if (ReadWrite.ReadAllLines(out var transactions))
             {
@@ -57,7 +56,7 @@ namespace MySuperBank
                 {
                     Console.WriteLine($"Avslutar...");
                     WriteOut();
-                    toFromfile.WriteAllLines();
+                    account.WriteAllLines();
                     break;
                 }
                 try
