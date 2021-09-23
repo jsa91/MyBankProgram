@@ -10,7 +10,7 @@ namespace MySuperBank
         {
             BankAccount account = null;
 
-            if (ReadWrite.ReadAllLines(out var transactions))
+            if (Read.ReadAllLines(out var transactions))
             {
                 account = new BankAccount(transactions);
                 Console.WriteLine(account.GetAccountHistory());
@@ -49,16 +49,18 @@ namespace MySuperBank
 
             while (true)
             {
-                Console.WriteLine("'Enter' för att ange en kostnad eller 'q' för att lista kostnaderna och avsluta");
+                Console.WriteLine("'Enter' för att ange en kostnad eller 'q' för att avsluta och skriva till fil.");
                 var inputExpense = Console.ReadLine();
 
                 if (inputExpense == "q")
                 {
-                    Console.WriteLine($"Avslutar...");
                     WriteOut();
                     account.WriteAllLines();
+                    Console.WriteLine($"\nDu kan nu stänga fönstret...");
+                    Console.ReadLine();
                     break;
                 }
+
                 try
                 {
                     Console.WriteLine($"\nVilken var kostnaden?\n");

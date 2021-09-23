@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\CsharpProjekt.csproj": {}
+    "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\CsharpProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\CsharpProjekt.csproj": {
+    "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\CsharpProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\CsharpProjekt.csproj",
-        "projectName": "CsharpProjekt",
-        "projectPath": "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\CsharpProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\CsharpProjekt.csproj",
+        "projectName": "PayMyBills",
+        "projectPath": "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\CsharpProjekt.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\obj\\",
+        "outputPath": "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

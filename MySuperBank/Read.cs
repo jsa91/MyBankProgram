@@ -8,7 +8,7 @@ using System.Configuration;
 
 namespace MySuperBank
 {
-    public class ReadWrite
+    public class Read
     {
         internal static bool ReadAllLines(out IEnumerable<Transaction> transactions)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/weUWMa64MGWgATPEX8W2sXx8oI93RuuxRPDFPWzcNexQOHAZ+UDfxkh8t3z8UlZYEHmHXhsJRO3zewweLV2w==",
+  "dgSpecHash": "6g/nMSvASfoBR2F9Cif9JW7eHDB7X2eUXHhVVdIOhc2HPvGmn9taaAfh8VR+Qn4lcWHZ9PJ8RkgUlOyNrfc9bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johan\\source\\repos\\MySuperBank\\MySuperBank\\CsharpProjekt.csproj",
+  "projectFilePath": "C:\\Users\\johan\\source\\repos\\MyBankProgram\\MySuperBank\\CsharpProjekt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\johan\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",

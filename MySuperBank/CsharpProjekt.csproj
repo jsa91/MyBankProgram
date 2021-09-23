@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>PayMyBills</AssemblyName>
+    <ApplicationIcon>Hopstarter-Sleek-Xp-Basic-Money.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
