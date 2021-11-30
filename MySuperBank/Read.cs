@@ -24,7 +24,7 @@ namespace MySuperBank
             }
             catch (Exception)
             {
-                Console.WriteLine($"Intäkter och utgifter från förra månaden kunde inte läsas in. Ignorera om det är första gången du kör programmet.\n\n");
+                Console.WriteLine($"Intäkter och utgifter från förra månaden kunde inte läsas in.\n\n");
                 transactions = null;
                 return false;
             }
